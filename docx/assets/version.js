@@ -111,24 +111,6 @@ function appendVersionBanner() {
         outline-width: 3px;
     }
     </style>
-    <div class="banner">
-      Looking for the documentation for previous version? You can find it 
-      <div tabindex="0" class="menu-button" role="button" aria-haspopup="true">
-        here
-        <ul class="list" role="menu">
-          <li class="list-item">
-            <a class="link" href="${createUrlForVersion(
-              '1.0'
-            )}" role="menuitem">v1.x</a>
-          </li>
-          <li class="list-item">
-            <a class="link" href="${createUrlForVersion(
-              '2.0'
-            )}" role="menuitem">v2.x</a>
-          </li>
-        </ul>
-      </div>
-    </div>
   `;
 
   if (document.getElementById('version-banner')) return;

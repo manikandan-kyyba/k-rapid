@@ -53,7 +53,7 @@ type Props = React.ComponentProps<typeof Appbar> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Appbar } from 'react-native-kyba';
+ * import { Appbar } from 'react-native-kyyba';
  *
  * const MyComponent = () => {
  *   const _goBack = () => console.log('Went back');

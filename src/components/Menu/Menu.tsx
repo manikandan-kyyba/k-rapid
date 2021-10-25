@@ -94,7 +94,7 @@ const EASING = Easing.bezier(0.4, 0, 0.2, 1);
  * ```js
  * import * as React from 'react';
  * import { View } from 'react-native';
- * import { Button, Menu, Divider, Provider } from 'react-native-kyba';
+ * import { Button, Menu, Divider, Provider } from 'react-native-kyyba';
  *
  * const MyComponent = () => {
  *   const [visible, setVisible] = React.useState(false);

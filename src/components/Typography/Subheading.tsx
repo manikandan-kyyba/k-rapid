@@ -20,7 +20,7 @@ type Props = React.ComponentProps<typeof Text> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Subheading } from 'react-native-kyba';
+ * import { Subheading } from 'react-native-kyyba';
  *
  * const MyComponent = () => (
  *   <Subheading>Subheading</Subheading>

@@ -37,7 +37,7 @@ function appendSnackLink() {
         encodeURIComponent(window.location.href) +
         '&code=' +
         encodeURIComponent(pre.textContent) +
-        '&dependencies=react-native-kyba';
+        '&dependencies=react-native-kyyba';
 
       if (link.href === href) {
         return;

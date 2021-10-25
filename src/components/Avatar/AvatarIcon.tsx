@@ -39,7 +39,7 @@ type Props = React.ComponentPropsWithRef<typeof View> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Avatar } from 'react-native-kyba';
+ * import { Avatar } from 'react-native-kyyba';
  *
  * const MyComponent = () => (
  *   <Avatar.Icon size={24} icon="folder" />

@@ -11,7 +11,7 @@ const TS_TEST_EXT = '.test.tsx';
 
 const transformContent = (content) =>
   content
-    .replace("'react-native-kyba'", "'..'")
+    .replace("'react-native-kyyba'", "'..'")
     .split('\n')
     .map((e) => e.slice(3))
     .join('\n');

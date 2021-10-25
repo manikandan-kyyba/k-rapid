@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Paragraph, Button, Portal, Dialog, Colors } from 'react-native-kyba';
+import { Paragraph, Button, Portal, Dialog, Colors } from 'react-native-kyyba';
 
 const DialogWithLongText = ({
   visible,

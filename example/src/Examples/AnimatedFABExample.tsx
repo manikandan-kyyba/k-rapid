@@ -7,7 +7,7 @@ import {
   useTheme,
   Avatar,
   Paragraph,
-} from 'react-native-kyba';
+} from 'react-native-kyyba';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { animatedFABExampleData } from '../../utils';
 

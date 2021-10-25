@@ -39,7 +39,7 @@ type Props = React.ComponentPropsWithRef<typeof View> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { List } from 'react-native-kyba';
+ * import { List } from 'react-native-kyyba';
  *
  * const MyComponent = () => (
  *   <List.Section>

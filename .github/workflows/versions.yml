@@ -12,7 +12,7 @@ jobs:
           github-token: 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
           required-packages: |
             react-native
-            react-native-kyba
+            react-native-kyyba
             react-native-vector-icons
           optional-packages: |
             expo

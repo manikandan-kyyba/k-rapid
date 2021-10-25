@@ -21,7 +21,7 @@ type Props = React.ComponentPropsWithRef<typeof View> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Card, Button } from 'react-native-kyba';
+ * import { Card, Button } from 'react-native-kyyba';
  *
  * const MyComponent = () => (
  *   <Card>

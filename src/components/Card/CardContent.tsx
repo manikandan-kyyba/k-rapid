@@ -34,7 +34,7 @@ type Props = React.ComponentPropsWithRef<typeof View> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Card, Title, Paragraph } from 'react-native-kyba';
+ * import { Card, Title, Paragraph } from 'react-native-kyyba';
  *
  * const MyComponent = () => (
  *   <Card>

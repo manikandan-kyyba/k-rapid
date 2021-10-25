@@ -28,7 +28,7 @@ export const PortalContext = React.createContext<PortalMethods>(null as any);
  * ```js
  * import * as React from 'react';
  * import { Text } from 'react-native';
- * import { Portal } from 'react-native-kyba';
+ * import { Portal } from 'react-native-kyyba';
  *
  * const MyComponent = () => (
  *   <Portal.Host>

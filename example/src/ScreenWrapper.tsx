@@ -7,7 +7,7 @@ import {
   View,
   ViewStyle,
 } from 'react-native';
-import { useTheme } from 'react-native-kyba';
+import { useTheme } from 'react-native-kyyba';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 type Props = ScrollViewProps & {

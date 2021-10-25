@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
-import { DataTable, Card } from 'react-native-kyba';
+import { DataTable, Card } from 'react-native-kyyba';
 import ScreenWrapper from '../ScreenWrapper';
 
 type ItemsState = Array<{

@@ -4,7 +4,7 @@
 
 function createUrlForVersion(version) {
   const url = window.location.pathname;
-  return url.replace(/react-native-kyba\//, `react-native-kyba/${version}/`);
+  return url.replace(/react-native-kyyba\//, `react-native-kyyba/${version}/`);
 }
 
 function appendVersionBanner() {

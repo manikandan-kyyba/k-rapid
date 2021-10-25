@@ -19,7 +19,7 @@ type Props = React.ComponentProps<typeof Text> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Caption } from 'react-native-kyba';
+ * import { Caption } from 'react-native-kyyba';
  *
  * const MyComponent = () => (
  *   <Caption>Caption</Caption>

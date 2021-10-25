@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, Image, Dimensions, StyleSheet, Platform } from 'react-native';
-import { BottomNavigation } from 'react-native-kyba';
+import { BottomNavigation } from 'react-native-kyyba';
 import ScreenWrapper from '../ScreenWrapper';
 
 type RoutesState = Array<{

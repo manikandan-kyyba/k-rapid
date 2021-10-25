@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { List } from 'react-native-kyba';
+import { List } from 'react-native-kyyba';
 import ScreenWrapper from '../ScreenWrapper';
 
 type State = string | number | undefined;

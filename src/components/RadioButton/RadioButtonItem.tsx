@@ -88,7 +88,7 @@ export type Props = {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { RadioButton } from 'react-native-kyba';
+ * import { RadioButton } from 'react-native-kyyba';
  *
  * const MyComponent = () => {
  *   const [value, setValue] = React.useState('first');

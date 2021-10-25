@@ -65,7 +65,7 @@ export type Props = {
  * ```js
  * import * as React from 'react';
  * import { View } from 'react-native';
- * import { RadioButton } from 'react-native-kyba';
+ * import { RadioButton } from 'react-native-kyyba';
  *
  * const MyComponent = () => {
  *   const [checked, setChecked] = React.useState('first');

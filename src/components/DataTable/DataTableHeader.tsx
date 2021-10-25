@@ -29,7 +29,7 @@ type Props = React.ComponentPropsWithRef<typeof View> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { DataTable } from 'react-native-kyba';
+ * import { DataTable } from 'react-native-kyyba';
  *
  * const MyComponent = () => (
  *       <DataTable>

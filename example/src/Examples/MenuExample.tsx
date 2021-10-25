@@ -13,7 +13,7 @@ import {
   Button,
   List,
   TouchableRipple,
-} from 'react-native-kyba';
+} from 'react-native-kyyba';
 import ScreenWrapper from '../ScreenWrapper';
 
 type ContextualMenuCoord = { x: number; y: number };

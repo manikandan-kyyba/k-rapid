@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
-import { RadioButton } from 'react-native-kyba';
+import { RadioButton } from 'react-native-kyyba';
 import ScreenWrapper from '../ScreenWrapper';
 
 const RadioButtonItemExample = () => {

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, StyleSheet } from 'react-native';
-import { ActivityIndicator, Colors, FAB } from 'react-native-kyba';
+import { ActivityIndicator, Colors, FAB } from 'react-native-kyyba';
 import ScreenWrapper from '../ScreenWrapper';
 
 const ActivityIndicatorExample = () => {

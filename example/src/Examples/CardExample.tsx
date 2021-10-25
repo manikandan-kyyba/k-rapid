@@ -9,7 +9,7 @@ import {
   useTheme,
   Text,
   Switch,
-} from 'react-native-kyba';
+} from 'react-native-kyyba';
 import ScreenWrapper from '../ScreenWrapper';
 
 const CardExample = () => {

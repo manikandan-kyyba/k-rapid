@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, StyleSheet } from 'react-native';
-import { FAB, Portal } from 'react-native-kyba';
+import { FAB, Portal } from 'react-native-kyyba';
 import ScreenWrapper from '../ScreenWrapper';
 
 const ButtonExample = () => {

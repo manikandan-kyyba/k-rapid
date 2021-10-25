@@ -57,7 +57,7 @@ type Props = React.ComponentPropsWithoutRef<typeof IconButton> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Appbar } from 'react-native-kyba';
+ * import { Appbar } from 'react-native-kyyba';
  * import { Platform } from 'react-native';
  *
  * const MORE_ICON = Platform.OS === 'ios' ? 'dots-horizontal' : 'dots-vertical';

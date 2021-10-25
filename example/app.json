@@ -2,7 +2,7 @@
   "expo": {
     "name": "React Native Kyyba Example",
     "description": "Example app for React Native Kyyba: https://github.com/manikandan-kyyba/react-native-kyyba",
-    "slug": "react-native-kyba-example",
+    "slug": "react-native-kyyba-example",
     "privacy": "public",
     "version": "1.0.0",
     "orientation": "default",
@@ -17,7 +17,7 @@
       "android",
       "ios"
     ],
-    "owner": "react-native-kyba",
+    "owner": "react-native-kyyba",
     "ios": {
       "bundleIdentifier": "com.callstack.reactnativepaperexample",
       "buildNumber": "3.0.0"

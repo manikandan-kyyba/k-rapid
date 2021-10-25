@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
-import { Caption, Searchbar } from 'react-native-kyba';
+import { Caption, Searchbar } from 'react-native-kyyba';
 import type { StackNavigationProp } from '@react-navigation/stack';
 import ScreenWrapper from '../ScreenWrapper';
 

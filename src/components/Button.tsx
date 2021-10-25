@@ -110,7 +110,7 @@ type Props = React.ComponentProps<typeof Surface> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Button } from 'react-native-kyba';
+ * import { Button } from 'react-native-kyyba';
  *
  * const MyComponent = () => (
  *   <Button icon="camera" mode="contained" onPress={() => console.log('Pressed')}>

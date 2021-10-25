@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { List, Divider } from 'react-native-kyba';
+import { List, Divider } from 'react-native-kyyba';
 import ScreenWrapper from '../ScreenWrapper';
 
 const ListAccordionExample = () => {

@@ -71,7 +71,7 @@ type Props = React.ComponentPropsWithRef<typeof TouchableWithoutFeedback> & {
  * ```js
  * import * as React from 'react';
  * import { View } from 'react-native';
- * import { Text, TouchableRipple } from 'react-native-kyba';
+ * import { Text, TouchableRipple } from 'react-native-kyyba';
  *
  * const MyComponent = () => (
  *   <TouchableRipple

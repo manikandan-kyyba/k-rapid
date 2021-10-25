@@ -71,7 +71,7 @@ type Props = $RemoveChildren<typeof TouchableRipple> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { IconButton, Colors } from 'react-native-kyba';
+ * import { IconButton, Colors } from 'react-native-kyyba';
  *
  * const MyComponent = () => (
  *   <IconButton
@@ -85,7 +85,7 @@ type Props = $RemoveChildren<typeof TouchableRipple> & {
  * export default MyComponent;
  * ```
  *
- * @extends TouchableRipple props https://github.com/react-native-kyba/touchable-ripple.html
+ * @extends TouchableRipple props https://github.com/react-native-kyyba/touchable-ripple.html
  */
 const IconButton = ({
   icon,

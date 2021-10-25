@@ -45,7 +45,7 @@ type Props = React.ComponentProps<typeof Animated.Text> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Badge } from 'react-native-kyba';
+ * import { Badge } from 'react-native-kyyba';
  *
  * const MyComponent = () => (
  *   <Badge>3</Badge>

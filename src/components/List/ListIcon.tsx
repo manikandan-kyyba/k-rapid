@@ -28,7 +28,7 @@ const ICON_SIZE = 24;
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { List, Colors } from 'react-native-kyba';
+ * import { List, Colors } from 'react-native-kyyba';
  *
  * const MyComponent = () => (
  *   <>

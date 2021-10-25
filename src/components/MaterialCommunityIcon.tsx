@@ -38,8 +38,8 @@ try {
       }
 
       console.warn(
-        `Tried to use the icon '${name}' in a component from 'react-native-kyba', but 'react-native-vector-icons/MaterialCommunityIcons' could not be loaded.`,
-        `To remove this warning, try installing 'react-native-vector-icons' or use another method to specify icon: https://github.com/react-native-kyba/icons.html.`
+        `Tried to use the icon '${name}' in a component from 'react-native-kyyba', but 'react-native-vector-icons/MaterialCommunityIcons' could not be loaded.`,
+        `To remove this warning, try installing 'react-native-vector-icons' or use another method to specify icon: https://github.com/react-native-kyyba/icons.html.`
       );
 
       isErrorLogged = true;

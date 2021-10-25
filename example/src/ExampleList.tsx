@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { FlatList } from 'react-native';
-import { List, Divider, useTheme } from 'react-native-kyba';
+import { List, Divider, useTheme } from 'react-native-kyyba';
 import { useSafeArea } from 'react-native-safe-area-context';
 import type { StackNavigationProp } from '@react-navigation/stack';
 

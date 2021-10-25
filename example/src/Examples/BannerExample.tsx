@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, StyleSheet, Image, Dimensions, Platform } from 'react-native';
-import { Banner, FAB, useTheme } from 'react-native-kyba';
+import { Banner, FAB, useTheme } from 'react-native-kyyba';
 import ScreenWrapper from '../ScreenWrapper';
 
 const PHOTOS = Array.from({ length: 24 }).map(

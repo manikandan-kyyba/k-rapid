@@ -2,7 +2,7 @@
   "extends": "../.eslintrc",
 
   "settings": {
-    "import/core-modules": [ "react-native-kyba" ]
+    "import/core-modules": [ "react-native-kyyba" ]
   },
 
   "rules": {

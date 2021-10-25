@@ -23,7 +23,7 @@ type Props = React.ComponentPropsWithRef<typeof View> & {
  * ```js
  * import * as React from 'react';
  * import { ScrollView } from 'react-native';
- * import { Dialog, Portal, Text } from 'react-native-kyba';
+ * import { Dialog, Portal, Text } from 'react-native-kyyba';
  *
  * const MyComponent = () => {
  *   const [visible, setVisible] = React.useState(false);

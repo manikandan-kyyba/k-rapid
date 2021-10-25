@@ -34,7 +34,7 @@ export const DEFAULT_APPBAR_HEIGHT = 56;
  * The bottom bar usually provides access to a drawer and up to four actions.
  *
  * By default Appbar uses primary color as a background, in dark theme with `adaptive` mode it will use surface colour instead.
- * See [Dark Theme](https://github.com/react-native-kyba/theming.html#dark-theme) for more informations
+ * See [Dark Theme](https://github.com/react-native-kyyba/theming.html#dark-theme) for more informations
  *
  * <div class="screenshots">
  *   <img class="medium" src="screenshots/appbar.png" />
@@ -43,7 +43,7 @@ export const DEFAULT_APPBAR_HEIGHT = 56;
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Appbar } from 'react-native-kyba';
+ * import { Appbar } from 'react-native-kyyba';
  * import { StyleSheet } from 'react-native';
  *
  * const MyComponent = () => (

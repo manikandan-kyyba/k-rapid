@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Dimensions, ScrollView } from 'react-native';
-import { Paragraph, Button, Portal, Dialog } from 'react-native-kyba';
+import { Paragraph, Button, Portal, Dialog } from 'react-native-kyyba';
 
 const DialogWithLongText = ({
   visible,

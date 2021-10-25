@@ -80,7 +80,7 @@ type TextInputHandles = Pick<
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Searchbar } from 'react-native-kyba';
+ * import { Searchbar } from 'react-native-kyyba';
  *
  * const MyComponent = () => {
  *   const [searchQuery, setSearchQuery] = React.useState('');

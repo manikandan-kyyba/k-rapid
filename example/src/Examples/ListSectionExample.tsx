@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet, Image, View } from 'react-native';
-import { List, Text, Chip, Divider } from 'react-native-kyba';
+import { List, Text, Chip, Divider } from 'react-native-kyyba';
 import ScreenWrapper from '../ScreenWrapper';
 const ListSectionExample = () => {
   return (

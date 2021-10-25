@@ -31,7 +31,7 @@ type Props = {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { ToggleButton } from 'react-native-kyba';
+ * import { ToggleButton } from 'react-native-kyyba';
  *
  * const MyComponent = () => {
  *   const [value, setValue] = React.useState('left');

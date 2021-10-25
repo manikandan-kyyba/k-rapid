@@ -37,7 +37,7 @@ export const ListAccordionGroupContext = React.createContext<
  * ```js
  * import * as React from 'react';
  * import { View, Text } from 'react-native';
- * import { List } from 'react-native-kyba';
+ * import { List } from 'react-native-kyyba';
  *
  * const MyComponent = () => (
  *   <List.AccordionGroup>

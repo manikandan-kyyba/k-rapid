@@ -53,7 +53,7 @@ For React Native Kyyba theme to work, we need to use <code>KyybaProvider</code> 
   Paragraph<span class="token punctuation">,</span>
   List<span class="token punctuation">,</span>
   Provider <span class="token keyword">as</span> KyybaProvider<span class="token punctuation">,</span>
-<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-native-kyyba'</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
 
 <span class="token keyword">const</span> Stack <span class="token operator">=</span> <span class="token function">createStackNavigator</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
@@ -111,7 +111,7 @@ For React Native Kyyba theme to work, we need to use <code>KyybaProvider</code> 
   DarkTheme <span class="token keyword">as</span> PaperDarkTheme<span class="token punctuation">,</span>
   DefaultTheme <span class="token keyword">as</span> PaperDefaultTheme<span class="token punctuation">,</span>
   Provider <span class="token keyword">as</span> KyybaProvider<span class="token punctuation">,</span>
-<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-native-kyyba'</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> merge <span class="token keyword">from</span> <span class="token string">'deepmerge'</span><span class="token punctuation">;</span>
 
 <span class="token keyword">const</span> CombinedDefaultTheme <span class="token operator">=</span> <span class="token function">merge</span><span class="token punctuation">(</span>PaperDefaultTheme<span class="token punctuation">,</span> NavigationDefaultTheme<span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -170,7 +170,7 @@ For React Native Kyyba theme to work, we need to use <code>KyybaProvider</code> 
 You can learn all about it their documentations:</p>
 <ul>
 <li><a href="https://reactnavigation.org/docs/themes/">Theming in React Navigation</a></li>
-<li><a href="https://github.com/react-native-kyyba/theming.html">Theming in React Native Kyyba</a></li>
+<li><a href="https://github.com/manikandan-kyyba/k-rapid/theming.html">Theming in React Native Kyyba</a></li>
 </ul>
 <h2 id="react-context-for-theme-customization">
           <a class="anchor" href="#react-context-for-theme-customization">
@@ -242,9 +242,9 @@ You can learn all about it their documentations:</p>
     </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">PreferencesContext.Provider</span></span><span class="token punctuation">&gt;</span></span>
   <span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
-<p>Now that the Context is available at every component, all we need to do is import it. Next thing is to provide the user with some UI element to control changing the theme. We will use <code>React Native Kyyba</code>'s <a href="https://github.com/react-native-kyyba/switch.html">Switch</a> for this purpose.</p>
+<p>Now that the Context is available at every component, all we need to do is import it. Next thing is to provide the user with some UI element to control changing the theme. We will use <code>React Native Kyyba</code>'s <a href="https://github.com/manikandan-kyyba/k-rapid/switch.html">Switch</a> for this purpose.</p>
 <pre><code class="language-js"><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span> useTheme<span class="token punctuation">,</span> Appbar<span class="token punctuation">,</span> TouchableRipple<span class="token punctuation">,</span> Switch <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-native-kyyba'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> useTheme<span class="token punctuation">,</span> Appbar<span class="token punctuation">,</span> TouchableRipple<span class="token punctuation">,</span> Switch <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> <span class="token punctuation">{</span> PreferencesContext <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./PreferencesContext'</span><span class="token punctuation">;</span>
 
 <span class="token keyword">const</span> <span class="token function-variable function">Header</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> scene <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
@@ -276,8 +276,8 @@ You can learn all about it their documentations:</p>
 <p>React Native Kyyba components will automatically use provided theme thanks to the <code>KyybaProvider</code> that is wrapped around the entry point of our application, but we can also access theme values manually with <code>useTheme</code> hook,
 exposed by the library. You can see how it's done in the <code>Header</code> component code above.</p>
 <p>If light/dark themes are not enough for your use case, you can learn more about creating Material Design themes <a href="https://material.io/design/material-theming/implementing-your-theme.html#color">here</a>.
-On <code>main</code> branch of the example app, you will find implemented <a href="https://github.com/react-native-kyyba/menu.html">Menu</a> component, which allows to choose a few custom themes. Inspecting code in <code>utils</code> and <code>Header</code> may give you some idea how to use your own themes with <code>React Native Kyyba</code>, in addition to dedicated <a href="https://github.com/react-native-kyyba/menu.html">docs</a>.</p>
-<p>Read more about integrating <code>React Native Kyyba</code> with <code>React Navigation</code> in a brilliant <a href="https://reactnavigation.org/blog/2020/01/29/using-react-navigation-5-with-react-native-kyyba/">article</a> by <a href="https://twitter.com/trensik">@trensik</a></p>
+On <code>main</code> branch of the example app, you will find implemented <a href="https://github.com/manikandan-kyyba/k-rapid/menu.html">Menu</a> component, which allows to choose a few custom themes. Inspecting code in <code>utils</code> and <code>Header</code> may give you some idea how to use your own themes with <code>React Native Kyyba</code>, in addition to dedicated <a href="https://github.com/manikandan-kyyba/k-rapid/menu.html">docs</a>.</p>
+<p>Read more about integrating <code>React Native Kyyba</code> with <code>React Navigation</code> in a brilliant <a href="https://reactnavigation.org/blog/2020/01/29/using-react-navigation-5-with-k-rapid/">article</a> by <a href="https://twitter.com/trensik">@trensik</a></p>
 </div></div></main></div></div>
     <style type="text/css">
       :root {

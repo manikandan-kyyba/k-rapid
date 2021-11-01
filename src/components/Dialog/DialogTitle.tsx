@@ -27,7 +27,7 @@ type Props = React.ComponentPropsWithRef<typeof Title> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Paragraph, Dialog, Portal } from 'react-native-kyyba';
+ * import { Paragraph, Dialog, Portal } from 'k-rapid';
  *
  * const MyComponent = () => {
  *   const [visible, setVisible] = React.useState(false);

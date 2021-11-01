@@ -74,7 +74,7 @@ type Props = {
  * ```js
  * import * as React from 'react';
  * import { View } from 'react-native';
- * import { Checkbox } from 'react-native-kyyba';
+ * import { Checkbox } from 'k-rapid';
  *
  * const MyComponent = () => (
  *   <View>

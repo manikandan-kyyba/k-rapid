@@ -2,12 +2,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import RedBox from 'redbox-react';
-import App from '/home/ubuntu/react-native-kyyba/docs/node_modules/component-docs/dist/templates/App.js';
+import App from '/home/ubuntu/k-rapid/docs/node_modules/component-docs/dist/templates/App.js';
 import data from './app.data';
-import '/home/ubuntu/react-native-kyyba/docs/node_modules/component-docs/dist/styles/reset.css';
-import '/home/ubuntu/react-native-kyyba/docs/node_modules/component-docs/dist/styles/globals.css';
+import '/home/ubuntu/k-rapid/docs/node_modules/component-docs/dist/styles/reset.css';
+import '/home/ubuntu/k-rapid/docs/node_modules/component-docs/dist/styles/globals.css';
 
-import '/home/ubuntu/react-native-kyyba/docs/assets/styles.css';
+import '/home/ubuntu/k-rapid/docs/assets/styles.css';
 
 const root = document.getElementById('root');
 const render = () => {
@@ -16,7 +16,7 @@ const render = () => {
       <App
         name={window.__INITIAL_PATH__}
         data={data}
-        github={"https://github.com/manikandan-kyyba/react-native-kyyba/edit/main/"}
+        github={"https://github.com/manikandan-kyyba/k-rapid/edit/main/"}
         logo={"images/sidebar-logo.svg"}
         title={"[title] · React Native Kyyba"}
       />,

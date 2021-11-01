@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, StyleSheet } from 'react-native';
-import { Avatar, List, Colors } from 'react-native-kyyba';
+import { Avatar, List, Colors } from 'k-rapid';
 import ScreenWrapper from '../ScreenWrapper';
 
 const AvatarExample = () => {

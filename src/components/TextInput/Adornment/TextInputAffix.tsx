@@ -88,7 +88,7 @@ const AffixAdornment: React.FunctionComponent<
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { TextInput } from 'react-native-kyyba';
+ * import { TextInput } from 'k-rapid';
  *
  * const MyComponent = () => {
  *   const [text, setText] = React.useState('');

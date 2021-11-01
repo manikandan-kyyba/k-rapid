@@ -103,7 +103,7 @@ type Props = {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { List } from 'react-native-kyyba';
+ * import { List } from 'k-rapid';
  *
  * const MyComponent = () => {
  *   const [expanded, setExpanded] = React.useState(true);

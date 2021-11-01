@@ -7,7 +7,7 @@ import {
   Paragraph,
   Switch,
   Colors,
-} from 'react-native-kyyba';
+} from 'k-rapid';
 import ScreenWrapper from '../ScreenWrapper';
 
 const BadgeExample = () => {

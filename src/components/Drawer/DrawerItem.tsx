@@ -50,7 +50,7 @@ type Props = React.ComponentPropsWithRef<typeof View> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Drawer } from 'react-native-kyyba';
+ * import { Drawer } from 'k-rapid';
  *
  * const MyComponent = () => (
  *    <Drawer.Item

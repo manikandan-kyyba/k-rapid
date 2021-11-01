@@ -95,7 +95,7 @@ type Props = $RemoveChildren<typeof Surface> & {
  * ```js
  * import * as React from 'react';
  * import { StyleSheet } from 'react-native';
- * import { FAB } from 'react-native-kyyba';
+ * import { FAB } from 'k-rapid';
  *
  * const MyComponent = () => (
  *   <FAB

@@ -6,7 +6,7 @@ import {
   Paragraph,
   Subheading,
   Title,
-} from 'react-native-kyyba';
+} from 'k-rapid';
 import ScreenWrapper from '../ScreenWrapper';
 
 const TextExample = () => {

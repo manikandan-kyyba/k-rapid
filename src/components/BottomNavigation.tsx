@@ -276,7 +276,7 @@ const SceneComponent = React.memo(({ component, ...rest }: any) =>
  * For integration with React Navigation, you can use [react-navigation-material-bottom-tabs](https://github.com/react-navigation/react-navigation/tree/main/packages/material-bottom-tabs) and consult [createMaterialBottomTabNavigator](https://reactnavigation.org/docs/material-bottom-tab-navigator/) documentation.
  *
  * By default Bottom navigation uses primary color as a background, in dark theme with `adaptive` mode it will use surface colour instead.
- * See [Dark Theme](https://github.com/react-native-kyyba/theming.html#dark-theme) for more information.
+ * See [Dark Theme](https://github.com/manikandan-kyyba/k-rapid/theming.html#dark-theme) for more information.
  *
  * <div class="screenshots">
  *   <img class="medium" src="screenshots/bottom-navigation.gif" />
@@ -285,7 +285,7 @@ const SceneComponent = React.memo(({ component, ...rest }: any) =>
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { BottomNavigation, Text } from 'react-native-kyyba';
+ * import { BottomNavigation, Text } from 'k-rapid';
  *
  * const MusicRoute = () => <Text>Music</Text>;
  *
@@ -477,7 +477,7 @@ const BottomNavigation = ({
 
   React.useEffect(() => {
     // Workaround for native animated bug in react-native@^0.57
-    // Context: https://github.com/manikandan-kyyba/react-native-kyyba/pull/637
+    // Context: https://github.com/manikandan-kyyba/k-rapid/pull/637
     animateToIndex(navigationState.index);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "React Native Kyyba Example",
-    "description": "Example app for React Native Kyyba: https://github.com/manikandan-kyyba/react-native-kyyba",
-    "slug": "react-native-kyyba-example",
+    "description": "Example app for React Native Kyyba: https://github.com/manikandan-kyyba/k-rapid",
+    "slug": "k-rapid-example",
     "privacy": "public",
     "version": "1.0.0",
     "orientation": "default",
@@ -17,7 +17,7 @@
       "android",
       "ios"
     ],
-    "owner": "react-native-kyyba",
+    "owner": "k-rapid",
     "ios": {
       "bundleIdentifier": "com.callstack.reactnativepaperexample",
       "buildNumber": "3.0.0"

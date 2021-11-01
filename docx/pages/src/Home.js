@@ -60,7 +60,7 @@ export default class Home extends React.Component<{}> {
               Get started
             </Button>
             <Button
-              href="https://github.com/manikandan-kyyba/react-native-kyyba"
+              href="https://github.com/manikandan-kyyba/k-rapid"
               target="_blank"
               rel="noopener noreferrer"
             >

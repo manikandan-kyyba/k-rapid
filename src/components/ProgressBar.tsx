@@ -50,7 +50,7 @@ const { isRTL } = I18nManager;
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { ProgressBar, Colors } from 'react-native-kyyba';
+ * import { ProgressBar, Colors } from 'k-rapid';
  *
  * const MyComponent = () => (
  *   <ProgressBar progress={0.5} color={Colors.red800} />

@@ -63,7 +63,7 @@ type Props = React.ComponentPropsWithRef<typeof NativeSwitch> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Switch } from 'react-native-kyyba';
+ * import { Switch } from 'k-rapid';
  *
  * const MyComponent = () => {
  *   const [isSwitchOn, setIsSwitchOn] = React.useState(false);

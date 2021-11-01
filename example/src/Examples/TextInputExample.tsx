@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet, View, KeyboardAvoidingView, Platform } from 'react-native';
-import { TextInput, HelperText, useTheme } from 'react-native-kyyba';
+import { TextInput, HelperText, useTheme } from 'k-rapid';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { inputReducer, State } from '../../utils';
 import ScreenWrapper from '../ScreenWrapper';

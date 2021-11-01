@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, StyleSheet } from 'react-native';
-import { Button, ProgressBar, Paragraph, Colors } from 'react-native-kyyba';
+import { Button, ProgressBar, Paragraph, Colors } from 'k-rapid';
 import ScreenWrapper from '../ScreenWrapper';
 
 const ProgressBarExample = () => {

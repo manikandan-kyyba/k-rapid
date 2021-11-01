@@ -10,7 +10,7 @@ import {
   Provider as KyybaProvider,
   DarkTheme,
   DefaultTheme,
-} from 'react-native-kyyba';
+} from 'k-rapid';
 import App from './RootNavigator';
 import DrawerItems from './DrawerItems';
 import { SafeAreaProvider } from 'react-native-safe-area-context';

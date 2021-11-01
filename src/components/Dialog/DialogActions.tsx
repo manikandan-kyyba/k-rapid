@@ -21,7 +21,7 @@ type Props = React.ComponentPropsWithRef<typeof View> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Button, Dialog, Portal } from 'react-native-kyyba';
+ * import { Button, Dialog, Portal } from 'k-rapid';
  *
  * const MyComponent = () => {
  *   const [visible, setVisible] = React.useState(false);

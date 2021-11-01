@@ -40,7 +40,7 @@
         Applying a theme to the whole app</h2>
 <p>To support custom themes, paper exports a <code>Provider</code> component. You need to wrap your root component with the provider to be able to support themes:</p>
 <pre><code class="language-js"><span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span> Provider <span class="token keyword">as</span> KyybaProvider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-native-kyyba'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> Provider <span class="token keyword">as</span> KyybaProvider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> App <span class="token keyword">from</span> <span class="token string">'./src/App'</span><span class="token punctuation">;</span>
 
 <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">Main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -50,9 +50,9 @@
     </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">KyybaProvider</span></span><span class="token punctuation">&gt;</span></span>
   <span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
-<p>If no prop is specified, this will apply the <a href="https://github.com/manikandan-kyyba/react-native-kyyba/blob/main/src/styles/DefaultTheme.tsx">default theme</a> to the components. You can also provide a <code>theme</code> prop with a theme object with same properties as the default theme:</p>
+<p>If no prop is specified, this will apply the <a href="https://github.com/manikandan-kyyba/k-rapid/blob/main/src/styles/DefaultTheme.tsx">default theme</a> to the components. You can also provide a <code>theme</code> prop with a theme object with same properties as the default theme:</p>
 <pre><code class="language-js"><span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span> DefaultTheme<span class="token punctuation">,</span> Provider <span class="token keyword">as</span> KyybaProvider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-native-kyyba'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> DefaultTheme<span class="token punctuation">,</span> Provider <span class="token keyword">as</span> KyybaProvider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> App <span class="token keyword">from</span> <span class="token string">'./src/App'</span><span class="token punctuation">;</span>
 
 <span class="token keyword">const</span> theme <span class="token operator">=</span> <span class="token punctuation">{</span>
@@ -115,7 +115,7 @@
         Extending the theme</h2>
 <p>Keeping your own properties in the theme is fully supported by our library:</p>
 <pre><code class="language-js"><span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span> DefaultTheme<span class="token punctuation">,</span> Provider <span class="token keyword">as</span> KyybaProvider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-native-kyyba'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> DefaultTheme<span class="token punctuation">,</span> Provider <span class="token keyword">as</span> KyybaProvider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> App <span class="token keyword">from</span> <span class="token string">'./src/App'</span><span class="token punctuation">;</span>
 
 <span class="token keyword">const</span> theme <span class="token operator">=</span> <span class="token punctuation">{</span>
@@ -144,7 +144,7 @@
         TypeScript</h3>
 <p>By default it won't work well with TypeScript, but we can take advantage of <code>global augmentations</code> and specify the new properties that we added to the theme:</p>
 <pre><code class="language-ts"><span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span> DefaultTheme<span class="token punctuation">,</span> Provider <span class="token keyword">as</span> KyybaProvider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-native-kyyba'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> DefaultTheme<span class="token punctuation">,</span> Provider <span class="token keyword">as</span> KyybaProvider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> App <span class="token keyword">from</span> <span class="token string">'./src/App'</span><span class="token punctuation">;</span>
 
 <span class="token keyword">declare</span> global <span class="token punctuation">{</span>
@@ -176,7 +176,7 @@
     <span class="token operator">&lt;</span><span class="token operator">/</span>KyybaProvider<span class="token operator">&gt;</span>
   <span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
-<p>As you can see, custom properties e.g. <code>myOwnColor</code> defined in nested object e.g. <code>colors</code> needs to be declared in its own interface. You'll find more information in our <a href="https://github.com/manikandan-kyyba/react-native-kyyba/blob/main/example/src/index.tsx">example app</a> where we have it implemented.</p>
+<p>As you can see, custom properties e.g. <code>myOwnColor</code> defined in nested object e.g. <code>colors</code> needs to be declared in its own interface. You'll find more information in our <a href="https://github.com/manikandan-kyyba/k-rapid/blob/main/example/src/index.tsx">example app</a> where we have it implemented.</p>
 <h2 id="applying-a-theme-to-a-paper-component">
           <a class="anchor" href="#applying-a-theme-to-a-paper-component">
             <svg width="16" height="16">
@@ -186,7 +186,7 @@
         Applying a theme to a paper component</h2>
 <p>If you want to change the theme for a certain component from the library, you can directly pass the <code>theme</code> prop to the component. The theme passed as the prop is merged with the theme from the <code>Provider</code>:</p>
 <pre><code class="language-js"><span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span> Button <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-native-kyyba'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> Button <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
 
 <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">ButtonExample</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">return</span> <span class="token punctuation">(</span>
@@ -204,7 +204,7 @@
         Using the theme in your own components</h2>
 <p>To access the theme in your own components, you can use the <code>withTheme</code> HOC exported from the library. If you wrap your component with the HOC, you'll receive the theme as a prop:</p>
 <pre><code class="language-js"><span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span> withTheme <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-native-kyyba'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> withTheme <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
 
 <span class="token keyword">function</span> <span class="token function">MyComponent</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">const</span> <span class="token punctuation">{</span> colors <span class="token punctuation">}</span> <span class="token operator">=</span> props<span class="token punctuation">.</span>theme<span class="token punctuation">;</span>
@@ -215,7 +215,7 @@
 <p>Components wrapped with <code>withTheme</code> support the theme from the <code>Provider</code> as well as from the <code>theme</code> prop.</p>
 <p>You can also use the <code>useTheme</code> hook:</p>
 <pre><code class="language-js"><span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span> useTheme <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-native-kyyba'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> useTheme <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
 
 <span class="token keyword">function</span> <span class="token function">MyComponent</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">const</span> <span class="token punctuation">{</span> colors <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">useTheme</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -231,7 +231,7 @@
 <p>Sometimes you want to style a component in a different way everywhere but don't want to change the properties in the theme so that other components are not affected. For example, say you want to change the font for all your buttons, but don't want to change <code>theme.fonts.medium</code> because it affects other components.</p>
 <p>We don't have an API to do this, because you can already do it with components:</p>
 <pre><code class="language-js"><span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span> Button <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-native-kyyba'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> Button <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
 
 <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">FancyButton</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">return</span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Button</span></span> <span class="token attr-name">theme</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token punctuation">[</span><span class="token punctuation">{</span> fonts<span class="token punctuation">:</span> <span class="token punctuation">{</span> medium<span class="token punctuation">:</span> <span class="token string">'Open Sans'</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">}</span></span> <span class="token spread"><span class="token punctuation">{</span><span class="token punctuation">...</span><span class="token attr-value">props</span><span class="token punctuation">}</span></span> <span class="token punctuation">/&gt;</span></span><span class="token punctuation">;</span>

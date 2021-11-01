@@ -65,7 +65,7 @@ type Props = $RemoveChildren<typeof View> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Appbar } from 'react-native-kyyba';
+ * import { Appbar } from 'k-rapid';
  *
  * const MyComponent = () => (
  *     <Appbar.Header>

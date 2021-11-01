@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, StyleSheet, Image } from 'react-native';
-import { Chip, List, useTheme, Snackbar } from 'react-native-kyyba';
+import { Chip, List, useTheme, Snackbar } from 'k-rapid';
 import color from 'color';
 import ScreenWrapper from '../ScreenWrapper';
 

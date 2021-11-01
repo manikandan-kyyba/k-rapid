@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, StyleSheet } from 'react-native';
-import { RadioButton, Paragraph, List, useTheme } from 'react-native-kyyba';
+import { RadioButton, Paragraph, List, useTheme } from 'k-rapid';
 import ScreenWrapper from '../ScreenWrapper';
 
 const RadioButtonGroupExample = () => {

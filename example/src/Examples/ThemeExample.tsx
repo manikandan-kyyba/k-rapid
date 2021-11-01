@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
-import { Paragraph } from 'react-native-kyyba';
-import { Provider as KyybaProvider } from 'react-native-kyyba';
+import { Paragraph } from 'k-rapid';
+import { Provider as KyybaProvider } from 'k-rapid';
 import ScreenWrapper from '../ScreenWrapper';
 
 const Content = () => {

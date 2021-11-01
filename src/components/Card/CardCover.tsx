@@ -31,7 +31,7 @@ type Props = React.ComponentPropsWithRef<typeof Image> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Card } from 'react-native-kyyba';
+ * import { Card } from 'k-rapid';
  *
  * const MyComponent = () => (
  *   <Card>

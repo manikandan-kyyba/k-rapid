@@ -43,7 +43,7 @@ export const RadioButtonContext = React.createContext<RadioButtonContextType>(
  * ```js
  * import * as React from 'react';
  * import { View } from 'react-native';
- * import { RadioButton, Text } from 'react-native-kyyba';
+ * import { RadioButton, Text } from 'k-rapid';
  *
  * const MyComponent = () => {
  *   const [value, setValue] = React.useState('first');

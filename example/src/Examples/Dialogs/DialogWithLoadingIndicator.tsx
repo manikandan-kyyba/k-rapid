@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { ActivityIndicator, Platform, View } from 'react-native';
-import { Paragraph, Colors, Portal, Dialog } from 'react-native-kyyba';
+import { Paragraph, Colors, Portal, Dialog } from 'k-rapid';
 
 const isIOS = Platform.OS === 'ios';
 

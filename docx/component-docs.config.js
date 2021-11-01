@@ -16,7 +16,7 @@ const scripts = [
   path.join(__dirname, 'assets', 'snack.js'),
   path.join(__dirname, 'assets', 'version.js'),
 ];
-const github = 'https://github.com/manikandan-kyyba/react-native-kyyba/edit/main/';
+const github = 'https://github.com/manikandan-kyyba/k-rapid/edit/main/';
 
 if (!fs.existsSync(dist)) {
   fs.mkdirSync(dist);

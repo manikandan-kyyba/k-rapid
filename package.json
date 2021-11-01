@@ -1,5 +1,5 @@
 {
-  "name": "react-native-kyyba",
+  "name": "k-rapid",
   "version": "4.9.4",
   "description": "Material design for React Native",
   "main": "lib/commonjs/index.js",
@@ -15,14 +15,14 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/manikandan-kyyba/react-native-kyyba.git"
+    "url": "https://github.com/manikandan-kyyba/k-rapid.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/manikandan-kyyba/react-native-kyyba/issues"
+    "url": "https://github.com/manikandan-kyyba/k-rapid/issues"
   },
-  "homepage": "https://github.com/react-native-kyyba",
+  "homepage": "https://github.com/manikandan-kyyba/k-rapid",
   "keywords": [
     "android",
     "ios",

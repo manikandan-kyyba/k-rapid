@@ -63,7 +63,7 @@ type Props = {
  * ```js
  * import * as React from 'react';
  * import { View } from 'react-native';
- * import { Menu } from 'react-native-kyyba';
+ * import { Menu } from 'k-rapid';
  *
  * const MyComponent = () => (
  *   <View style={{ flex: 1 }}>

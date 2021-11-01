@@ -108,7 +108,7 @@ type Props = React.ComponentProps<typeof Surface> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Chip } from 'react-native-kyyba';
+ * import { Chip } from 'k-rapid';
  *
  * const MyComponent = () => (
  *   <Chip icon="information" onPress={() => console.log('Pressed')}>Example Chip</Chip>

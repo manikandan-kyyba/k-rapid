@@ -33,7 +33,7 @@ type Props = $RemoveChildren<typeof TouchableRipple> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { DataTable } from 'react-native-kyyba';
+ * import { DataTable } from 'k-rapid';
  *
  * const MyComponent = () => (
  *      <DataTable.Row>
@@ -48,7 +48,7 @@ type Props = $RemoveChildren<typeof TouchableRipple> & {
  * ```
  *
  * If you want to support multiline text, please use View instead, as multiline text doesn't comply with
- * MD Guidelines (https://github.com/manikandan-kyyba/react-native-kyyba/issues/2381).
+ * MD Guidelines (https://github.com/manikandan-kyyba/k-rapid/issues/2381).
  */
 
 const DataTableCell = ({ children, style, numeric, ...rest }: Props) => (

@@ -108,7 +108,7 @@ type Props = $RemoveChildren<typeof TouchableRipple> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { List } from 'react-native-kyyba';
+ * import { List } from 'k-rapid';
  *
  * const MyComponent = () => (
  *   <List.Item
@@ -121,7 +121,7 @@ type Props = $RemoveChildren<typeof TouchableRipple> & {
  * export default MyComponent;
  * ```
  *
- * @extends TouchableRipple props https://github.com/react-native-kyyba/touchable-ripple.html
+ * @extends TouchableRipple props https://github.com/manikandan-kyyba/k-rapid/touchable-ripple.html
  */
 const ListItem = ({
   left,

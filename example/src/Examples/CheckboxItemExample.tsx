@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
-import { Checkbox } from 'react-native-kyyba';
+import { Checkbox } from 'k-rapid';
 import ScreenWrapper from '../ScreenWrapper';
 
 const CheckboxExample = () => {

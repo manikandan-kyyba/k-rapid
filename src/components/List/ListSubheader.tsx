@@ -21,7 +21,7 @@ type Props = React.ComponentProps<typeof Text> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { List } from 'react-native-kyyba';
+ * import { List } from 'k-rapid';
  *
  * const MyComponent = () => <List.Subheader>My List Title</List.Subheader>;
  *

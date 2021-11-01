@@ -9,7 +9,7 @@ import {
   Text,
   Colors,
   useTheme,
-} from 'react-native-kyyba';
+} from 'k-rapid';
 import * as Updates from 'expo-updates';
 
 type Props = {

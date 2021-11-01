@@ -4,7 +4,7 @@
 
 function createUrlForVersion(version) {
   const url = window.location.pathname;
-  return url.replace(/react-native-kyyba\//, `react-native-kyyba/${version}/`);
+  return url.replace(/k-rapid\//, `k-rapid/${version}/`);
 }
 
 function appendVersionBanner() {

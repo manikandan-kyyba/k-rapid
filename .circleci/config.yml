@@ -4,13 +4,13 @@ executors:
   default:
     docker:
       - image: circleci/node:10
-    working_directory: ~/react-native-kyyba
+    working_directory: ~/k-rapid
 
 commands:
   attach_project:
     steps:
       - attach_workspace:
-          at: ~/react-native-kyyba
+          at: ~/k-rapid
 
 jobs:
   install-dependencies:

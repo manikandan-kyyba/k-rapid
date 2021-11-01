@@ -60,7 +60,7 @@ type Props = {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Checkbox } from 'react-native-kyyba';
+ * import { Checkbox } from 'k-rapid';
  *
  * const MyComponent = () => {
  *   const [checked, setChecked] = React.useState(false);

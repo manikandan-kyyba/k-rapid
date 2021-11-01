@@ -77,7 +77,7 @@ type Props = React.ComponentProps<typeof Surface> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Avatar, Button, Card, Title, Paragraph } from 'react-native-kyyba';
+ * import { Avatar, Button, Card, Title, Paragraph } from 'k-rapid';
  *
  * const LeftContent = props => <Avatar.Icon {...props} icon="folder" />
  *

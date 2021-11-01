@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
-import { IconButton, Colors } from 'react-native-kyyba';
+import { IconButton, Colors } from 'k-rapid';
 import ScreenWrapper from '../ScreenWrapper';
 
 const ButtonExample = () => {

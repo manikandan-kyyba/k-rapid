@@ -36,7 +36,7 @@ assignees: ''
 | --------------------- | -------
 | ios or android        |
 | react-native          |
-| react-native-kyyba    |
+| k-rapid    |
 | node                  |
 | npm or yarn           |
 | expo sdk              |

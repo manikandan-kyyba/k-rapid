@@ -48,7 +48,7 @@ const DIALOG_ELEVATION: number = 24;
  * ```js
  * import * as React from 'react';
  * import { View } from 'react-native';
- * import { Button, Paragraph, Dialog, Portal, Provider } from 'react-native-kyyba';
+ * import { Button, Paragraph, Dialog, Portal, Provider } from 'k-rapid';
  *
  * const MyComponent = () => {
  *   const [visible, setVisible] = React.useState(false);

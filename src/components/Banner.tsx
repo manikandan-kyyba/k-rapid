@@ -72,7 +72,7 @@ type NativeEvent = {
  * ```js
  * import * as React from 'react';
  * import { Image } from 'react-native';
- * import { Banner } from 'react-native-kyyba';
+ * import { Banner } from 'k-rapid';
  *
  * const MyComponent = () => {
  *   const [visible, setVisible] = React.useState(true);

@@ -30,7 +30,7 @@ type Props = $RemoveChildren<typeof View> & {
  * ```js
  * import * as React from 'react';
  * import { View } from 'react-native';
- * import { Divider, Text } from 'react-native-kyyba';
+ * import { Divider, Text } from 'k-rapid';
  *
  * const MyComponent = () => (
  *   <View>

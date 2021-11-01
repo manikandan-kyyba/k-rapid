@@ -149,7 +149,7 @@ export type TextInputProps = React.ComponentPropsWithRef<
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { TextInput } from 'react-native-kyyba';
+ * import { TextInput } from 'k-rapid';
  *
  * const MyComponent = () => {
  *   const [text, setText] = React.useState('');
@@ -232,7 +232,7 @@ class TextInput extends React.Component<TextInputProps, State> {
       isFocusChanged ||
       isValueChanged ||
       // workaround for animated regression for react native > 0.61
-      // https://github.com/manikandan-kyyba/react-native-kyyba/pull/1440
+      // https://github.com/manikandan-kyyba/k-rapid/pull/1440
       isLabelLayoutChanged
     ) {
       // The label should be minimized if the text input is focused, or has text

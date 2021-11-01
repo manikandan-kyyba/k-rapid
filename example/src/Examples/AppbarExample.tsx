@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { View, Platform, StyleSheet } from 'react-native';
 import type { StackNavigationProp } from '@react-navigation/stack';
-import { Appbar, FAB, Switch, Paragraph } from 'react-native-kyyba';
+import { Appbar, FAB, Switch, Paragraph } from 'k-rapid';
 import ScreenWrapper from '../ScreenWrapper';
 
 type Props = {

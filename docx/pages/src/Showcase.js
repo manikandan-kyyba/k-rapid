@@ -131,7 +131,7 @@ export default class Showcase extends React.Component<{}> {
           <p>
             Check out these apps built using React Native Kyyba. Send us a{' '}
             <a
-              href="https://github.com/manikandan-kyyba/react-native-kyyba/pulls"
+              href="https://github.com/manikandan-kyyba/k-rapid/pulls"
               target="_blank"
               rel="noopener noreferrer"
             >

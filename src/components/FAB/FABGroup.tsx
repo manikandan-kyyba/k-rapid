@@ -97,7 +97,7 @@ type Props = {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { FAB, Portal, Provider } from 'react-native-kyyba';
+ * import { FAB, Portal, Provider } from 'k-rapid';
  *
  * const MyComponent = () => {
  *   const [state, setState] = React.useState({ open: false });

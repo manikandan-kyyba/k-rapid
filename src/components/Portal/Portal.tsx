@@ -26,7 +26,7 @@ type Props = {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Portal, Text } from 'react-native-kyyba';
+ * import { Portal, Text } from 'k-rapid';
  *
  * const MyComponent = () => (
  *   <Portal>

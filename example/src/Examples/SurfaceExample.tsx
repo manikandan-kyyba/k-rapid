@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
-import { Text, Surface } from 'react-native-kyyba';
+import { Text, Surface } from 'k-rapid';
 import ScreenWrapper from '../ScreenWrapper';
 
 const SurfaceExample = () => {

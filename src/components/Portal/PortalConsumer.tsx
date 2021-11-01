@@ -33,9 +33,9 @@ export default class PortalConsumer extends React.Component<Props> {
   private checkManager() {
     if (!this.props.manager) {
       throw new Error(
-        'Looks like you forgot to wrap your root component with `Provider` component from `react-native-kyyba`.\n\n' +
+        'Looks like you forgot to wrap your root component with `Provider` component from `k-rapid`.\n\n' +
           "Please read our getting-started guide and make sure you've followed all the required steps.\n\n" +
-          'https://github.com/react-native-kyyba/getting-started.html'
+          'https://github.com/manikandan-kyyba/k-rapid/getting-started.html'
       );
     }
   }

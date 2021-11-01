@@ -63,7 +63,7 @@ type Props = {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { ToggleButton } from 'react-native-kyyba';
+ * import { ToggleButton } from 'k-rapid';
  *
  * const ToggleButtonExample = () => {
  *   const [status, setStatus] = React.useState('checked');

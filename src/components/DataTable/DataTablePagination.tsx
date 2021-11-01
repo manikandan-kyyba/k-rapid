@@ -203,7 +203,7 @@ const PaginationDropdown = ({
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { DataTable } from 'react-native-kyyba';
+ * import { DataTable } from 'k-rapid';
  *
  * const numberOfItemsPerPageList = [2, 3, 4];
  *

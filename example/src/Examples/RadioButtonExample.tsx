@@ -5,7 +5,7 @@ import {
   RadioButton,
   Colors,
   TouchableRipple,
-} from 'react-native-kyyba';
+} from 'k-rapid';
 import ScreenWrapper from '../ScreenWrapper';
 
 type State = 'normal' | 'normal-ios' | 'normal-item' | 'custom';

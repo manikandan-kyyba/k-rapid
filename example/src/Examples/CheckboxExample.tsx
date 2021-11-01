@@ -5,7 +5,7 @@ import {
   Checkbox,
   Colors,
   TouchableRipple,
-} from 'react-native-kyyba';
+} from 'k-rapid';
 import ScreenWrapper from '../ScreenWrapper';
 
 const CheckboxExample = () => {

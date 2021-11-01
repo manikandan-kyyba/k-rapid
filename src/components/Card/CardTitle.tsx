@@ -79,7 +79,7 @@ const LEFT_SIZE = 40;
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Avatar, Card, IconButton } from 'react-native-kyyba';
+ * import { Avatar, Card, IconButton } from 'k-rapid';
  *
  * const MyComponent = () => (
  *   <Card.Title

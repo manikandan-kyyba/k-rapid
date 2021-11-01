@@ -53,7 +53,7 @@ type Props = $Omit<
  * ```js
  * import * as React from 'react';
  * import { View } from 'react-native';
- * import { HelperText, TextInput } from 'react-native-kyyba';
+ * import { HelperText, TextInput } from 'k-rapid';
  *
  * const MyComponent = () => {
  *   const [text, setText] = React.useState('');

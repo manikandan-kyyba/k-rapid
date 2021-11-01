@@ -18,7 +18,7 @@ type Props = React.ComponentProps<typeof Text> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Title } from 'react-native-kyyba';
+ * import { Title } from 'k-rapid';
  *
  * const MyComponent = () => (
  *   <Title>Title</Title>

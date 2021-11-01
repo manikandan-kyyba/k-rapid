@@ -47,7 +47,7 @@ const DURATION = 2400;
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { ActivityIndicator, Colors } from 'react-native-kyyba';
+ * import { ActivityIndicator, Colors } from 'k-rapid';
  *
  * const MyComponent = () => (
  *   <ActivityIndicator animating={true} color={Colors.red800} />

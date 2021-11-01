@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "react-native-kyyba": ["./src/index"]
+      "k-rapid": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

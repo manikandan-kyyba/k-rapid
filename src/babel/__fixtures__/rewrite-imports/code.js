@@ -13,4 +13,4 @@ import {
   ThemeProvider,
   withTheme,
   Theme
-} from 'react-native-kyyba';
+} from 'k-rapid';

@@ -18,7 +18,7 @@ type Props = TextProps & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Paragraph } from 'react-native-kyyba';
+ * import { Paragraph } from 'k-rapid';
  *
  * const MyComponent = () => (
  *   <Paragraph>Paragraph</Paragraph>

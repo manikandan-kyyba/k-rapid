@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { FlatList } from 'react-native';
-import { Divider, List, useTheme } from 'react-native-kyyba';
+import { Divider, List, useTheme } from 'k-rapid';
 import ScreenWrapper from '../ScreenWrapper';
 
 const items = ['Apple', 'Banana', 'Coconut', 'Lemon', 'Mango', 'Peach'];

@@ -54,7 +54,7 @@ type Props = React.ComponentPropsWithRef<typeof TouchableWithoutFeedback> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { DataTable } from 'react-native-kyyba';
+ * import { DataTable } from 'k-rapid';
  *
  * const MyComponent = () => (
  *       <DataTable>

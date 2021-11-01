@@ -20,7 +20,7 @@ type Props = React.ComponentProps<typeof Text> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Headline } from 'react-native-kyyba';
+ * import { Headline } from 'k-rapid';
  *
  * const MyComponent = () => (
  *   <Headline>Headline</Headline>

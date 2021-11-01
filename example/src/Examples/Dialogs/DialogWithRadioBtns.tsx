@@ -7,7 +7,7 @@ import {
   Dialog,
   RadioButton,
   TouchableRipple,
-} from 'react-native-kyyba';
+} from 'k-rapid';
 
 type Props = {
   visible: boolean;

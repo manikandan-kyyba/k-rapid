@@ -67,7 +67,7 @@ const BOTTOM_INSET = getBottomSpace();
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { Modal, Portal, Text, Button, Provider } from 'react-native-kyyba';
+ * import { Modal, Portal, Text, Button, Provider } from 'k-rapid';
  *
  * const MyComponent = () => {
  *   const [visible, setVisible] = React.useState(false);

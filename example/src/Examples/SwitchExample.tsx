@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, StyleSheet, Platform } from 'react-native';
-import { Paragraph, Switch, Colors, TouchableRipple } from 'react-native-kyyba';
+import { Paragraph, Switch, Colors, TouchableRipple } from 'k-rapid';
 import ScreenWrapper from '../ScreenWrapper';
 
 const SwitchExample = () => {

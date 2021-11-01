@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
-import { Button } from 'react-native-kyyba';
+import { Button } from 'k-rapid';
 import ScreenWrapper from '../ScreenWrapper';
 import {
   DialogWithCustomColors,

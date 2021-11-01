@@ -1,1 +1,1 @@
-Lib: react-native-kyyba
+Lib: k-rapid

@@ -45,7 +45,7 @@ type Props = $RemoveChildren<typeof TouchableRipple> & {
  * ## Usage
  * ```js
  * import * as React from 'react';
- * import { DataTable } from 'react-native-kyyba';
+ * import { DataTable } from 'k-rapid';
  *
  * const MyComponent = () => (
  *      <DataTable.Row>

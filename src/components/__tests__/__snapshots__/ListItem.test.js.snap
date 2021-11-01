@@ -81,7 +81,7 @@ exports[`renders list item with custom description 1`] = `
             }
           }
         >
-          React Native Kyyba is a high-quality, standard-compliant Design Design library that has you covered in all major use-cases.
+          K-Rapid is a high-quality, standard-compliant Design Design library that has you covered in all major use-cases.
         </Text>
         <View>
           <View

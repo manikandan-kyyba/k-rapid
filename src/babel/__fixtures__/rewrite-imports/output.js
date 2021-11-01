@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { Text } from 'react-native';
-import KyybaProvider from "k-rapid/lib/module/core/Provider";
+import KRapidProvider from "k-rapid/lib/module/core/Provider";
 import BottomNavigation from "k-rapid/lib/module/components/BottomNavigation";
 import Button from "k-rapid/lib/module/components/Button";
 import FAB from "k-rapid/lib/module/components/FAB";

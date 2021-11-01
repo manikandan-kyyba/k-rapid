@@ -1,4 +1,4 @@
-# Example App for React Native Kyyba
+# Example App for K-Rapid
 
 ## React Native App
 

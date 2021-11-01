@@ -94,7 +94,7 @@ const ListSectionExample = () => {
                 ellipsizeMode={ellipsizeMode}
                 style={{ color: descriptionColor, fontSize }}
               >
-                React Native Kyyba is a high-quality, standard-compliant
+                K-Rapid is a high-quality, standard-compliant
                 Material Design library that has you covered in all major
                 use-cases.
               </Text>

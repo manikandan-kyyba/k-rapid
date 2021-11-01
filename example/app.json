@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "React Native Kyyba Example",
-    "description": "Example app for React Native Kyyba: https://github.com/manikandan-kyyba/k-rapid",
+    "name": "K-Rapid Example",
+    "description": "Example app for K-Rapid: https://github.com/manikandan-kyyba/k-rapid",
     "slug": "k-rapid-example",
     "privacy": "public",
     "version": "1.0.0",

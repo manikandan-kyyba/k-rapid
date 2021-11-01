@@ -21,7 +21,7 @@ type Data = {
 const data: Data[] = [
   {
     color: '#6200EE',
-    name: 'React Native Kyyba Example App',
+    name: 'K-Rapid Example App',
     image: 'showcase/paper.png',
     android: '#',
     ios: '#',
@@ -127,9 +127,9 @@ export default class Showcase extends React.Component<{}> {
       <Container>
         <Header logo="images/sidebar-logo.svg" />
         <Content>
-          <h1>Who&apos;s using React Native Kyyba?</h1>
+          <h1>Who&apos;s using K-Rapid?</h1>
           <p>
-            Check out these apps built using React Native Kyyba. Send us a{' '}
+            Check out these apps built using K-Rapid. Send us a{' '}
             <a
               href="https://github.com/manikandan-kyyba/k-rapid/pulls"
               target="_blank"

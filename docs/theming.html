@@ -1,4 +1,4 @@
-<html lang="en"><head><meta charSet="utf-8"/><link rel="shortcut icon" type="image/vnd.microsoft.icon" href="images/favicon.ico"/><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/><meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="description" content=""/><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Theming · React Native Kyyba"/><meta name="twitter:description" content=""/><meta property="og:type" content="website"/><meta property="og:title" content="Theming · React Native Kyyba"/><meta property="og:description" content=""/><title>Theming · React Native Kyyba</title><link type="text/css" rel="stylesheet" href="app.css"/></head><body>
+<html lang="en"><head><meta charSet="utf-8"/><link rel="shortcut icon" type="image/vnd.microsoft.icon" href="images/favicon.ico"/><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/><meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="description" content=""/><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Theming · K-Rapid"/><meta name="twitter:description" content=""/><meta property="og:type" content="website"/><meta property="og:title" content="Theming · K-Rapid"/><meta property="og:description" content=""/><title>Theming · K-Rapid</title><link type="text/css" rel="stylesheet" href="app.css"/></head><body>
     <script>
       var theme;
 
@@ -40,19 +40,19 @@
         Applying a theme to the whole app</h2>
 <p>To support custom themes, paper exports a <code>Provider</code> component. You need to wrap your root component with the provider to be able to support themes:</p>
 <pre><code class="language-js"><span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span> Provider <span class="token keyword">as</span> KyybaProvider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> Provider <span class="token keyword">as</span> KRapidProvider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> App <span class="token keyword">from</span> <span class="token string">'./src/App'</span><span class="token punctuation">;</span>
 
 <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">Main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">return</span> <span class="token punctuation">(</span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">KyybaProvider</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">KRapidProvider</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
       </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">App</span></span> <span class="token punctuation">/&gt;</span></span><span class="token plain-text">
-    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">KyybaProvider</span></span><span class="token punctuation">&gt;</span></span>
+    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">KRapidProvider</span></span><span class="token punctuation">&gt;</span></span>
   <span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
 <p>If no prop is specified, this will apply the <a href="https://github.com/manikandan-kyyba/k-rapid/blob/main/src/styles/DefaultTheme.tsx">default theme</a> to the components. You can also provide a <code>theme</code> prop with a theme object with same properties as the default theme:</p>
 <pre><code class="language-js"><span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span> DefaultTheme<span class="token punctuation">,</span> Provider <span class="token keyword">as</span> KyybaProvider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> DefaultTheme<span class="token punctuation">,</span> Provider <span class="token keyword">as</span> KRapidProvider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> App <span class="token keyword">from</span> <span class="token string">'./src/App'</span><span class="token punctuation">;</span>
 
 <span class="token keyword">const</span> theme <span class="token operator">=</span> <span class="token punctuation">{</span>
@@ -67,9 +67,9 @@
 
 <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">Main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">return</span> <span class="token punctuation">(</span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">KyybaProvider</span></span> <span class="token attr-name">theme</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>theme<span class="token punctuation">}</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">KRapidProvider</span></span> <span class="token attr-name">theme</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>theme<span class="token punctuation">}</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
       </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">App</span></span> <span class="token punctuation">/&gt;</span></span><span class="token plain-text">
-    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">KyybaProvider</span></span><span class="token punctuation">&gt;</span></span>
+    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">KRapidProvider</span></span><span class="token punctuation">&gt;</span></span>
   <span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
 <p>You can change the theme prop dynamically and all the components will automatically update to reflect the new theme.</p>
@@ -104,7 +104,7 @@
 </li>
 </ul>
 <p>When creating a custom theme, you will need to provide all of these properties.</p>
-<p>If you don't use a custom theme, React Native Kyyba will automatically turn animations on/off, depending on device settings.</p>
+<p>If you don't use a custom theme, K-Rapid will automatically turn animations on/off, depending on device settings.</p>
 <p>Otherwise, your custom theme will need to handle it manually, using React Native's <a href="https://reactnative.dev/docs/accessibilityinfo">AccessibilityInfo API</a>.</p>
 <h2 id="extending-the-theme">
           <a class="anchor" href="#extending-the-theme">
@@ -115,7 +115,7 @@
         Extending the theme</h2>
 <p>Keeping your own properties in the theme is fully supported by our library:</p>
 <pre><code class="language-js"><span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span> DefaultTheme<span class="token punctuation">,</span> Provider <span class="token keyword">as</span> KyybaProvider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> DefaultTheme<span class="token punctuation">,</span> Provider <span class="token keyword">as</span> KRapidProvider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> App <span class="token keyword">from</span> <span class="token string">'./src/App'</span><span class="token punctuation">;</span>
 
 <span class="token keyword">const</span> theme <span class="token operator">=</span> <span class="token punctuation">{</span>
@@ -130,9 +130,9 @@
 
 <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">Main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">return</span> <span class="token punctuation">(</span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">KyybaProvider</span></span> <span class="token attr-name">theme</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>theme<span class="token punctuation">}</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">KRapidProvider</span></span> <span class="token attr-name">theme</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span>theme<span class="token punctuation">}</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
       </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">App</span></span> <span class="token punctuation">/&gt;</span></span><span class="token plain-text">
-    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">KyybaProvider</span></span><span class="token punctuation">&gt;</span></span>
+    </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">KRapidProvider</span></span><span class="token punctuation">&gt;</span></span>
   <span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
 <h3 id="typescript">
@@ -144,7 +144,7 @@
         TypeScript</h3>
 <p>By default it won't work well with TypeScript, but we can take advantage of <code>global augmentations</code> and specify the new properties that we added to the theme:</p>
 <pre><code class="language-ts"><span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span> DefaultTheme<span class="token punctuation">,</span> Provider <span class="token keyword">as</span> KyybaProvider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> DefaultTheme<span class="token punctuation">,</span> Provider <span class="token keyword">as</span> KRapidProvider <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'k-rapid'</span><span class="token punctuation">;</span>
 <span class="token keyword">import</span> App <span class="token keyword">from</span> <span class="token string">'./src/App'</span><span class="token punctuation">;</span>
 
 <span class="token keyword">declare</span> global <span class="token punctuation">{</span>
@@ -171,9 +171,9 @@
 
 <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">Main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">return</span> <span class="token punctuation">(</span>
-    <span class="token operator">&lt;</span>KyybaProvider theme<span class="token operator">=</span><span class="token punctuation">{</span>theme<span class="token punctuation">}</span><span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>KRapidProvider theme<span class="token operator">=</span><span class="token punctuation">{</span>theme<span class="token punctuation">}</span><span class="token operator">&gt;</span>
       <span class="token operator">&lt;</span>App <span class="token operator">/</span><span class="token operator">&gt;</span>
-    <span class="token operator">&lt;</span><span class="token operator">/</span>KyybaProvider<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>KRapidProvider<span class="token operator">&gt;</span>
   <span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
 <p>As you can see, custom properties e.g. <code>myOwnColor</code> defined in nested object e.g. <code>colors</code> needs to be declared in its own interface. You'll find more information in our <a href="https://github.com/manikandan-kyyba/k-rapid/blob/main/example/src/index.tsx">example app</a> where we have it implemented.</p>
@@ -236,7 +236,7 @@
 <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">FancyButton</span><span class="token punctuation">(</span><span class="token parameter">props</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">return</span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">Button</span></span> <span class="token attr-name">theme</span><span class="token script language-javascript"><span class="token script-punctuation punctuation">=</span><span class="token punctuation">{</span><span class="token punctuation">[</span><span class="token punctuation">{</span> fonts<span class="token punctuation">:</span> <span class="token punctuation">{</span> medium<span class="token punctuation">:</span> <span class="token string">'Open Sans'</span> <span class="token punctuation">}</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">}</span></span> <span class="token spread"><span class="token punctuation">{</span><span class="token punctuation">...</span><span class="token attr-value">props</span><span class="token punctuation">}</span></span> <span class="token punctuation">/&gt;</span></span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span></code></pre>
-<p>Now you can use your <code>FancyButton</code> component everywhere instead of using <code>Button</code> from React Native Kyyba.</p>
+<p>Now you can use your <code>FancyButton</code> component everywhere instead of using <code>Button</code> from K-Rapid.</p>
 <h2 id="dark-theme">
           <a class="anchor" href="#dark-theme">
             <svg width="16" height="16">
@@ -253,7 +253,7 @@ That's why if you are using dark theme you can switch between two dark theme <co
 <li><code>exact</code> where everything is like it was before. <code>Appbar</code> and <code>BottomNavigation</code> will still use primary colour by default.<br /></li>
 <li><code>adaptive</code> where we follow <a href="https://material.io/design/color/dark-theme.html">Material design guidelines</a>, the surface will use white overlay with opacity to show elevation, <code>Appbar</code> and <code>BottomNavigation</code> will use surface colour as a background.</li>
 </ul>
-<p>If you don't use a custom theme, React Native Kyyba will automatically change between the default theme and the default dark theme, depending on device settings.</p>
+<p>If you don't use a custom theme, K-Rapid will automatically change between the default theme and the default dark theme, depending on device settings.</p>
 <p>Otherwise, your custom theme will need to handle it manually, using React Native's <a href="https://reactnative.dev/docs/appearance">Appearance API</a>.</p>
 <h2 id="gotchas">
           <a class="anchor" href="#gotchas">

@@ -73,7 +73,7 @@ Example:
 
 ### 4. Use custom icons
 
-If you want to use icons other than `MaterialCommunityIcons` you need to import the icons and pass it to the `settings` prop within `KyybaProvider`.
+If you want to use icons other than `MaterialCommunityIcons` you need to import the icons and pass it to the `settings` prop within `KRapidProvider`.
 
 Example:
 
@@ -81,14 +81,14 @@ Example:
 import AwesomeIcon from 'react-native-vector-icons/FontAwesome';
 // ...
 
-      <KyybaProvider
+      <KRapidProvider
         settings={{
           icon: props => <AwesomeIcon {...props} />,
         }}
         theme={this.state.theme}
       >
         // ...
-      </KyybaProvider>
+      </KRapidProvider>
 ```
 
 ## RTL support

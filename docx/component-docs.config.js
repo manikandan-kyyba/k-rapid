@@ -120,5 +120,5 @@ module.exports = {
   pages: getPages,
   output: dist,
   github,
-  title: '[title] · React Native Kyyba',
+  title: '[title] · K-Rapid',
 };

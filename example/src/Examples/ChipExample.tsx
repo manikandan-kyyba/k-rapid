@@ -203,7 +203,7 @@ const ChipExample = () => {
               textStyle={{ flex: -1 }}
               ellipsizeMode="middle"
             >
-              With a very big text: React Native Kyyba is a high-quality,
+              With a very big text: K-Rapid is a high-quality,
               standard-compliant Material Design library that has you covered in
               all major use-cases.
             </Chip>

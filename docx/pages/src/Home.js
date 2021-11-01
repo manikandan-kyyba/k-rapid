@@ -27,7 +27,7 @@ export default class Home extends React.Component<{}> {
             for React Native.
           </h1>
           <p>
-          React Native Kyyba is a collection of customizable and production-ready
+          K-Rapid is a collection of customizable and production-ready
             components for React Native, following Google’s Material Design
             guidelines.
           </p>

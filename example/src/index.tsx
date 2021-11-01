@@ -7,7 +7,7 @@ import { StatusBar } from 'expo-status-bar';
 import { InitialState, NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import {
-  Provider as KyybaProvider,
+  Provider as KRapidProvider,
   DarkTheme,
   DefaultTheme,
 } from 'k-rapid';
@@ -186,7 +186,7 @@ export default function PaperExample() {
   }
 
   return (
-    <KyybaProvider theme={theme}>
+    <KRapidProvider theme={theme}>
       <SafeAreaProvider>
         <PreferencesContext.Provider value={preferences}>
           <React.Fragment>
@@ -208,6 +208,6 @@ export default function PaperExample() {
           </React.Fragment>
         </PreferencesContext.Provider>
       </SafeAreaProvider>
-    </KyybaProvider>
+    </KRapidProvider>
   );
 }

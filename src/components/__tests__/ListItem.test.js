@@ -78,7 +78,7 @@ it('renders list item with custom description', () => {
               ellipsizeMode={ellipsizeMode}
               style={{ color: descriptionColor, fontSize }}
             >
-              React Native Kyyba is a high-quality, standard-compliant Design
+              K-Rapid is a high-quality, standard-compliant Design
               Design library that has you covered in all major use-cases.
             </Text>
             <View>

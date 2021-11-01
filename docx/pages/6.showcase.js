@@ -11,6 +11,6 @@ export default class ShowcasePage extends React.Component<{}> {
 
 export const meta = {
   title: 'Showcase',
-  description: 'Showcase for applications build with React Native Kyyba',
+  description: 'Showcase for applications build with K-Rapid',
   link: 'showcase',
 };

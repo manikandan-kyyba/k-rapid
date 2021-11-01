@@ -2,7 +2,7 @@
 
 import { Text } from 'react-native';
 import {
-  Provider as KyybaProvider,
+  Provider as KRapidProvider,
   BottomNavigation,
   Button,
   FAB,

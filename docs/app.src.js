@@ -18,7 +18,7 @@ const render = () => {
         data={data}
         github={"https://github.com/manikandan-kyyba/k-rapid/edit/main/"}
         logo={"images/sidebar-logo.svg"}
-        title={"[title] · React Native Kyyba"}
+        title={"[title] · K-Rapid"}
       />,
       root
     );

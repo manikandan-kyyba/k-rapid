@@ -1,14 +1,14 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
 import { Paragraph } from 'k-rapid';
-import { Provider as KyybaProvider } from 'k-rapid';
+import { Provider as KRapidProvider } from 'k-rapid';
 import ScreenWrapper from '../ScreenWrapper';
 
 const Content = () => {
   return (
     <ScreenWrapper contentContainerStyle={styles.container}>
       <Paragraph style={styles.paragraph}>
-        React Native Kyyba automatically adapts theme based on system
+        K-Rapid automatically adapts theme based on system
         preferences
       </Paragraph>
       <Paragraph style={styles.paragraph}>
@@ -20,9 +20,9 @@ const Content = () => {
 
 const ThemeExample = () => {
   return (
-    <KyybaProvider>
+    <KRapidProvider>
       <Content />
-    </KyybaProvider>
+    </KRapidProvider>
   );
 };
 ThemeExample.title = 'Theme';

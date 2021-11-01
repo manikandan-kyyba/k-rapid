@@ -1,4 +1,4 @@
-<html lang="en"><head><meta charSet="utf-8"/><link rel="shortcut icon" type="image/vnd.microsoft.icon" href="images/favicon.ico"/><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/><meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="description" content=""/><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Using on the Web · React Native Kyyba"/><meta name="twitter:description" content=""/><meta property="og:type" content="website"/><meta property="og:title" content="Using on the Web · React Native Kyyba"/><meta property="og:description" content=""/><title>Using on the Web · React Native Kyyba</title><link type="text/css" rel="stylesheet" href="app.css"/></head><body>
+<html lang="en"><head><meta charSet="utf-8"/><link rel="shortcut icon" type="image/vnd.microsoft.icon" href="images/favicon.ico"/><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/><meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="description" content=""/><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Using on the Web · K-Rapid"/><meta name="twitter:description" content=""/><meta property="og:type" content="website"/><meta property="og:title" content="Using on the Web · K-Rapid"/><meta property="og:description" content=""/><title>Using on the Web · K-Rapid</title><link type="text/css" rel="stylesheet" href="app.css"/></head><body>
     <script>
       var theme;
 
@@ -39,7 +39,7 @@
           </a>
         Pre-requisites</h2>
 <p>Make sure that you have followed the getting started guide and have <code>k-rapid</code> installed and configured before following this guide.</p>
-<p>We're going to use <a href="https://github.com/necolas/react-native-web">react-native-web</a> and <a href="https://webpack.js.org/">webpack</a> to use React Native Kyyba on the web, so let's install them as well.</p>
+<p>We're going to use <a href="https://github.com/necolas/react-native-web">react-native-web</a> and <a href="https://webpack.js.org/">webpack</a> to use K-Rapid on the web, so let's install them as well.</p>
 <p>To install <code>react-native-web</code>, run:</p>
 <pre><code class="language-sh">yarn add react-native-web react-dom react-art</code></pre>
 <h3 id="using-cra-create-react-app">
@@ -235,11 +235,11 @@ module<span class="token punctuation">.</span>exports <span class="token operato
           </a>
         Load the Material Community Icons</h2>
 <p>If you followed the getting started guide, you should have the following code in your root component:</p>
-<pre><code class="language-js"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">KyybaProvider</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+<pre><code class="language-js"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">KRapidProvider</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
   </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">App</span></span> <span class="token punctuation">/&gt;</span></span><span class="token plain-text">
-</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">KyybaProvider</span></span><span class="token punctuation">&gt;</span></span></code></pre>
+</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">KRapidProvider</span></span><span class="token punctuation">&gt;</span></span></code></pre>
 <p>Now we need tweak this section to load the Material Community Icons from the <a href="https://github.com/oblador/react-native-vector-icons"><code>react-native-vector-icons</code></a> library:</p>
-<pre><code class="language-js"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">KyybaProvider</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
+<pre><code class="language-js"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">KRapidProvider</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
   </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">React.Fragment</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
     </span><span class="token punctuation">{</span>Platform<span class="token punctuation">.</span><span class="token constant">OS</span> <span class="token operator">===</span> <span class="token string">'web'</span> <span class="token operator">?</span> <span class="token punctuation">(</span>
       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text/css<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">{`
@@ -251,7 +251,7 @@ module<span class="token punctuation">.</span>exports <span class="token operato
     <span class="token punctuation">)</span> <span class="token punctuation">:</span> <span class="token keyword">null</span><span class="token punctuation">}</span><span class="token plain-text">
     </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token class-name">App</span></span> <span class="token punctuation">/&gt;</span></span><span class="token plain-text">
   </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">React.Fragment</span></span><span class="token punctuation">&gt;</span></span><span class="token plain-text">
-</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">KyybaProvider</span></span><span class="token punctuation">&gt;</span></span></code></pre>
+</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span><span class="token class-name">KRapidProvider</span></span><span class="token punctuation">&gt;</span></span></code></pre>
 <p>Remember to import <code>Platform</code> from <code>react-native</code> at the top:</p>
 <pre><code class="language-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> Platform <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-native'</span><span class="token punctuation">;</span></code></pre>
 <p>You can also load these fonts using <a href="https://github.com/webpack-contrib/css-loader"><code>css-loader</code></a> if you prefer.</p>
@@ -262,7 +262,7 @@ module<span class="token punctuation">.</span>exports <span class="token operato
             </svg>
           </a>
         Load the Roboto fonts (optional)</h2>
-<p>The default theme in React Native Kyyba uses the Roboto font. You can add them to your project following <a href="https://fonts.google.com/specimen/Roboto?selection.family=Roboto:100,300,400,500">the instructions on its Google Fonts page</a>.</p>
+<p>The default theme in K-Rapid uses the Roboto font. You can add them to your project following <a href="https://fonts.google.com/specimen/Roboto?selection.family=Roboto:100,300,400,500">the instructions on its Google Fonts page</a>.</p>
 <h2 id="were-done">
           <a class="anchor" href="#we-39-re-done-">
             <svg width="16" height="16">
